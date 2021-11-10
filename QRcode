@@ -1,6 +1,0 @@
-import qrcode
-
-print('enter the text you want to convert to QR:')
-x=input()
-img=qrcode.make(x)
-img.save('yourOwnQR.jpg')
